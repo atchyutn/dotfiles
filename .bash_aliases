@@ -19,7 +19,7 @@ alias .5='cd ../../../../..'
 alias gs='git status'
 alias ga='git add -A'
 ##git add, commit, push
-alias gacp='echo "enter commit message : " && read MSG && git add . && git commit -m "$MSG" && echo "to which branch? " && git push $branch'
+alias gacp='echo "enter commit message : " && read MSG && git add . && git commit -m "$MSG" && echo "to which branch? " && read BRANCH && git push $BRANCH'
 alias gun='git config user.name'
 alias gum='git config user.email'
 alias gpom='git push origin master'
