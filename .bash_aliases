@@ -23,6 +23,7 @@ alias gum='git config user.email'
 alias gpom='git push origin master'
 alias gphm='git push heroku master'
 alias gplom='git pull origin master'
+alias gcc = 'git config credential.helper "cache --timeout=36000"'
 
 #3: Control rails commands
 alias rs='rails server'
