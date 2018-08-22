@@ -35,8 +35,11 @@ alias rc='rails console'
 #4: Control folders
 ##open current folder in OS explorer
 alias open="xdg-open ."
-alias TLL='cd /Desktop/personal_workspace/TeamLinkLog'
+alias pw='cd ~/Atchyut/personal_workspace'
 
 #5: Control system
 alias adios="sudo poweroff"
 alias bhrc='source /home/$USER/.bashrc'
+
+#6: Corn Jobs
+alias cron='EDITOR=vim crontab -e'
